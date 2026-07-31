@@ -1,0 +1,30 @@
+name: List correction
+description: Report a mismatch with an already-published FastPrep question-bank item.
+title: "[Correction]: "
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This tracker only indexes questions already published in FastPrep. Do not include private statements, answers, screenshots, or evaluator content.
+  - type: input
+    id: row
+    attributes:
+      label: Current README row
+      description: Link or paste the public FastPrep problem URL from the affected row.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Exact correction
+      description: Explain which public title, firm, link, or last-seen date is out of sync.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Source safety
+      options:
+        - label: I have not included private assessment text, answers, hidden tests, screenshots, or evaluator material.
+          required: true
