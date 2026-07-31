@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# Quant Firm OA & Interview Questions by FastPrep
+# Quant Firm OA & Interview Questions by FastPrep (Updated Daily)
 
 **129 real, practice-ready questions from 18 quantitative trading and investment firms.**
 
