@@ -1,0 +1,9 @@
+{
+  "scanned": "2026-07-30",
+  "source": "Adjacent software-engineering OA tracker",
+  "font": "No web-app font system; preserve the source repository's editorial/monospace voice",
+  "palette": "Reference tracker uses badge accents; this project uses a restrained Newsprint token palette",
+  "motion": "Motion-cut",
+  "spacing": "4px scale",
+  "framework": "Vite + React + TypeScript"
+}
