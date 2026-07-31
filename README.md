@@ -11,7 +11,9 @@
 [![Firms](https://img.shields.io/badge/FIRMS-18-2962FF?style=for-the-badge)](#coverage)
 [![FastPrep](https://img.shields.io/badge/PRACTICE-FASTPREP-7C3AED?style=for-the-badge)](https://www.fastprep.io)
 
-<samp><a href="#how-it-works">how it works</a> · <a href="#selection">selection</a> · <a href="#coverage">coverage</a> · <a href="#question-bank">question bank</a> · <a href="#contribute">contribute</a></samp>
+[![Request a firm](https://img.shields.io/badge/REQUEST_A_FIRM-OPEN_ISSUE-E91E63?style=for-the-badge&logo=github)](https://github.com/perixtar/quant-interview-oa-bank/issues/new?template=company-request.yml)
+
+<samp><a href="#how-it-works">how it works</a> · <a href="#selection">selection</a> · <a href="#coverage">coverage</a> · <a href="#question-bank">question bank</a> · <a href="#contribute">requests & corrections</a></samp>
 
 </div>
 
@@ -26,6 +28,7 @@
 | **Search** | Use <kbd>Ctrl</kbd> / <kbd>⌘</kbd> + <kbd>F</kbd> to find a firm or question below |
 | **Open** | Every title links to the corresponding published FastPrep problem |
 | **Practice** | Solve it on FastPrep with the available editor and test cases |
+| **Request** | [Request another quant firm or more OA coverage](https://github.com/perixtar/quant-interview-oa-bank/issues/new?template=company-request.yml) |
 | **Stay current** | Watch this repository; rows are sorted by their latest verified sighting |
 
 <a id="selection"></a>
@@ -65,7 +68,9 @@ Only public-safe metadata appears here: firm, title, public problem URL, and lat
 
 <a id="contribute"></a>
 
-## Corrections
+## Requests and corrections
+
+Want another quant firm or more OA coverage? [Open a firm request](https://github.com/perixtar/quant-interview-oa-bank/issues/new?template=company-request.yml). Requests help prioritize reviewed FastPrep coverage; they do not add unverified questions directly.
 
 Found a mismatch with an already-published FastPrep item? [Open a correction issue](https://github.com/perixtar/quant-interview-oa-bank/issues/new?template=list-correction.yml). Do not submit invented questions, private assessment material, answers, or evaluator content. See [CONTRIBUTING.md](CONTRIBUTING.md).
 

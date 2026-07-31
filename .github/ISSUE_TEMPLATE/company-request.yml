@@ -1,0 +1,49 @@
+name: Request a firm
+description: Request OA or interview coverage for another quantitative trading or investment firm.
+title: "[Firm request]: "
+labels: ["company request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping expand the tracker. Requests guide what maintainers review next; only verified, public FastPrep question-bank items can be added to the list.
+  - type: input
+    id: company
+    attributes:
+      label: Company
+      description: Give the firm's full public name.
+      placeholder: Example Quant Trading
+    validations:
+      required: true
+  - type: dropdown
+    id: request_type
+    attributes:
+      label: What would you like added?
+      options:
+        - A firm that is not tracked yet
+        - More OA or interview questions for a tracked firm
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Recruiting context
+      description: Share the role, location, recruiting season, and a short source-safe summary if known. Do not paste a full proprietary question.
+      placeholder: Quant developer internship, New York, 2027 recruiting season...
+    validations:
+      required: true
+  - type: textarea
+    id: public_links
+    attributes:
+      label: Public supporting links
+      description: Add public FastPrep problem pages or other public sources that may help maintainers verify the request.
+      placeholder: https://www.fastprep.io/problems/...
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Source safety
+      options:
+        - label: I have not included private assessment text, answers, hidden tests, screenshots, recruiter messages, or evaluator material.
+          required: true
+        - label: I understand that only verified, published FastPrep questions will appear in the tracker.
+          required: true

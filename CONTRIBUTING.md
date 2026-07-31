@@ -2,6 +2,15 @@
 
 Thanks for helping keep the Quant OA & Interview tracker accurate. This repository is a public-safe index of problems that are already published in FastPrep's production question bank; it is not a place to author or infer new questions.
 
+## Firm and coverage requests
+
+Use the [firm request form](https://github.com/perixtar/quant-interview-oa-bank/issues/new?template=company-request.yml) to request:
+
+- A quantitative trading or investment firm that is not tracked yet.
+- More OA or interview coverage for a firm already on the list.
+
+Include the company name and any public FastPrep problem links you already know. You may add source context such as role, location, recruiting season, and a short source-safe summary, but never paste a proprietary question statement. A request helps maintainers prioritize verified FastPrep coverage; it does not make an unverified question eligible for the tracker.
+
 ## Good corrections
 
 - A broken FastPrep practice link.
